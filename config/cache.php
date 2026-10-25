@@ -108,4 +108,19 @@ return [
 
     'prefix' => env('CACHE_PREFIX', Str::slug(env('APP_NAME', 'laravel'), '_').'_cache_'),
 
+    /*
+    |--------------------------------------------------------------------------
+    | Serializable Classes
+    |--------------------------------------------------------------------------
+    |
+    | The classes that may be unserialized from cache storage. The default of
+    | false allows none, which hardens the cache against PHP deserialization
+    | gadget chains if the APP_KEY ever leaks. List classes here if the app
+    | starts caching PHP objects (for example by switching Laravel Excel's
+    | cell cache to its "illuminate" driver).
+    |
+    */
+
+    'serializable_classes' => false,
+
 ];
