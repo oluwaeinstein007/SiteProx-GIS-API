@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "fd4872b22b5625c027fc603f79579a78",
+    "content-hash": "0cc92151e62dd347b89718193514f58b",
     "packages": [
         {
             "name": "brick/math",
@@ -2417,12 +2417,12 @@
             "version": "2.72.3",
             "source": {
                 "type": "git",
-                "url": "https://github.com/briannesbitt/Carbon.git",
+                "url": "https://github.com/CarbonPHP/carbon.git",
                 "reference": "0c6fd108360c562f6e4fd1dedb8233b423e91c83"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/0c6fd108360c562f6e4fd1dedb8233b423e91c83",
+                "url": "https://api.github.com/repos/CarbonPHP/carbon/zipball/0c6fd108360c562f6e4fd1dedb8233b423e91c83",
                 "reference": "0c6fd108360c562f6e4fd1dedb8233b423e91c83",
                 "shasum": ""
             },
@@ -5998,12 +5998,12 @@
             "version": "v5.6.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/vlucas/phpdotenv.git",
+                "url": "https://github.com/phpdotenv/phpdotenv.git",
                 "reference": "2cf9fb6054c2bb1d59d1f3817706ecdb9d2934c4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/2cf9fb6054c2bb1d59d1f3817706ecdb9d2934c4",
+                "url": "https://api.github.com/repos/phpdotenv/phpdotenv/zipball/2cf9fb6054c2bb1d59d1f3817706ecdb9d2934c4",
                 "reference": "2cf9fb6054c2bb1d59d1f3817706ecdb9d2934c4",
                 "shasum": ""
             },
@@ -8655,7 +8655,7 @@
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
-        "php": "^8.1"
+        "php": "^8.2"
     },
     "platform-dev": [],
     "plugin-api-version": "2.6.0"
